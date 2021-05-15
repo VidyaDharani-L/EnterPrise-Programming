@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+<bean id="emp" class="com.klu.Employee">
+<property name="id" value="3001"></property>
+<property name="name" value="Vidya"></property>
+<property name="desg" value="Student"></property>
+<property name="salary" value="0"></property>
+</bean>
+
+</beans>
+
+
+

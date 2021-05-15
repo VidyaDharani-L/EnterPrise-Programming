@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+<bean id="university" class="com.klu.University">
+<constructor-arg value="3002"></constructor-arg>
+<constructor-arg value="Vidya"></constructor-arg>
+
+<constructor-arg>
+<list>
+<value>CSE</value>
+<value>EEE</value>
+<value>MECH</value>
+<value>ECE</value>
+</list>
+</constructor-arg>
+
+</bean>
+
+</beans>
+
+
+
